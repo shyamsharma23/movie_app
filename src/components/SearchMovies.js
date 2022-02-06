@@ -30,7 +30,10 @@ const elements = movies.map(movie => <Card movie = {movie} key = {movie.id}/>)
                 />
         <button className='button' type='submit'>Search</button>
       </form>
+      <hr />
+      <div className='content'>
       {elements}
+      </div>
   </div>;
 };
 
