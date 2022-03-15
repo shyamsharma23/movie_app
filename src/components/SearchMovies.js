@@ -20,7 +20,7 @@ const SearchMovies = () => {
     }
 }
 const elements = movies.map(movie => <Card movie = {movie} key = {movie.id}/>)
-  return <div>
+  return <div className='header'>
       <form className='form' onSubmit={searchMovies}>
           <label className='label' htmlFor='query'>Movie Name</label>
           <input className='input' type='text' name='query'
